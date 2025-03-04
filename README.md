@@ -44,8 +44,8 @@ This Python script allows you to both encrypt and decrypt messages using the Cae
 To use this project, clone the repository to your local machine:
 
 ```bash
-git clone https://github.com/yourusername/caesar-cipher-encryption.git
-cd caesar-cipher-encryption
+git clone https://github.com/hf3cyber/PRODIGY_CS_01.git
+cd caesar
 ```
 
 Make sure you have Python installed. This script requires Python 3.
