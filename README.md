@@ -45,7 +45,7 @@ To use this project, clone the repository to your local machine:
 
 ```bash
 git clone https://github.com/hf3cyber/PRODIGY_CS_01.git
-cd caesar
+cd PRODIGY_CS_01
 ```
 
 Make sure you have Python installed. This script requires Python 3.
@@ -55,7 +55,7 @@ Make sure you have Python installed. This script requires Python 3.
 To run the script, use the following command:
 
 ```bash
-python caesar_cipher.py
+python CaesarCipher.py
 ```
 
 ### Encrypt a Message
@@ -84,42 +84,20 @@ shift = 3
 
 ---
 
-### Example 2: Larger Shift
+
+### Example 2: Handling Numbers and Symbols
 
 ```python
-text = "Python Programming"
-shift = 10
-```
-
-- **Encrypted Text**: `Zidryx Zbydsacqdsx`
-- **Decrypted Text**: `Python Programming`
-
----
-
-### Example 3: Decryption with Known Shift
-
-```python
-cipher_text = "Ebiil Tloia!"
-shift = 23
-```
-
-- **Decrypted Text**: `Hello World!`
-
----
-
-### Example 4: Handling Numbers and Symbols
-
-```python
-text = "This is 2024!"
+text = "This is 2025!"
 shift = 5
 ```
 
-- **Encrypted Text**: `Ymnx nx 2024!`
-- **Decrypted Text**: `This is 2024!`
+- **Encrypted Text**: `Ymnx nx 2025!`
+- **Decrypted Text**: `This is 2025!`
 
 ---
 
-### Example 5: Negative Shift
+### Example 3: Negative Shift
 
 ```python
 text = "Negative Shift"
@@ -130,16 +108,6 @@ shift = -4
 - **Decrypted Text**: `Negative Shift`
 
 ---
-
-### Example 6: Alphabet Wrap Around
-
-```python
-text = "XYZ abc"
-shift = 4
-```
-
-- **Encrypted Text**: `BCD efg`
-- **Decrypted Text**: `XYZ abc`
 
 ---
 
